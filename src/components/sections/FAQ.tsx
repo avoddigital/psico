@@ -23,6 +23,10 @@ const faqs = [
     question: 'Os dados são seguros e anônimos?',
     answer: 'Sim. Seguimos a LGPD à risca. O sistema impede a identificação individual em relatórios de grupo, garantindo a confiança do colaborador para responder.',
   },
+  {
+    question: 'Por que o prazo de 26 de maio de 2026 é importante?',
+    answer: 'Esta é a data limite para que todas as empresas se adequem às novas exigências da NR-01 referentes ao gerenciamento de riscos ocupacionais, incluindo os psicossociais. Após esta data, a fiscalização será intensificada e empresas irregulares estarão sujeitas a multas.',
+  },
 ];
 
 export function FAQ() {

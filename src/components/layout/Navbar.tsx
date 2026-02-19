@@ -56,7 +56,12 @@ export function Navbar() {
 
          {/* Actions */}
          <div className="hidden md:flex items-center gap-6">
-           <a href="#login" className="text-sm font-medium text-white hover:text-primary transition-colors">
+           <a 
+             href="https://app.psico.avoddigital.com.br" 
+             target="_blank"
+             rel="noopener noreferrer"
+             className="text-sm font-medium text-white hover:text-primary transition-colors"
+           >
              Entrar
            </a>
            <Button size="sm" className="rounded-full bg-primary text-white hover:bg-primary/90 font-bold shadow-[0_0_20px_rgba(14,165,233,0.3)] border border-primary/20 px-6">
@@ -93,7 +98,12 @@ export function Navbar() {
                </a>
              ))}
              <div className="h-px bg-white/10 my-2"></div>
-             <a href="#login" className="text-center text-sm font-medium text-gray-300 hover:text-white p-3">
+             <a 
+               href="https://app.psico.avoddigital.com.br" 
+               target="_blank"
+               rel="noopener noreferrer"
+               className="text-center text-sm font-medium text-gray-300 hover:text-white p-3"
+             >
                Entrar
              </a>
              <Button className="w-full rounded-xl bg-primary text-white shadow-lg shadow-primary/20">
